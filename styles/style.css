@@ -60,7 +60,7 @@ section, footer {
 }
 
 .dark {
-    background-color: f5f5f5;
+    background-color: #f5f5f5;
 }
 
 .darkblock {
@@ -151,7 +151,7 @@ cars.carspec {
     content: '✓  ';
 }
 
-pad {
+.pad {
     @media (max-width:48em) {
         flex-basis: 100%;
         max-width: 100%;
@@ -159,7 +159,7 @@ pad {
 }
 
 .pad {
-    margin: 3rem;
+    padding: 3rem 0;
 }
 
 a:link {
